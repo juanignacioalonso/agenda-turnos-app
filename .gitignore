@@ -1,0 +1,22 @@
+# --- GENERAL ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- PYTHON / DJANGO ---
+backend/venv/
+backend/*.sqlite3
+__pycache__/
+*.py[cod]
+*$py.class
+backend/.env
+backend/static/
+backend/media/
+
+# --- ANGULAR / NODE ---
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/package-lock.json  
+*.log
